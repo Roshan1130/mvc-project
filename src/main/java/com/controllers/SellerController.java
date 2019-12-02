@@ -19,6 +19,7 @@ public class SellerController {
 		ModelAndView mv = new ModelAndView("form");
 		mv.addObject("mvo1", sd);
 		System.out.println();
+		
 
 		return mv;
 	}
